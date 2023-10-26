@@ -135,7 +135,7 @@ An API that functions as a species archive for (fake)dinosaurs that were alive d
   3) (Optional) To update the database with any changes to the code, run the command `dotnet ef migrations add <MigrationsName>` which will use Entity Framework Core's code-first principle to generate a database update. After, run the previous command `dotnet ef database update` to update the database.
 
   #### Launch the API
-  1) Navigate to CretaceousApi/CretaceousApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CoffeeTrackerAPI.Solution/CoffeeTrackerAPI`).
+  1) Navigate to CretaceousApi/CretaceousApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CretaceousApi/CretaceousApi`).
   2) Run the command `dotnet watch run` to have access to the API in Postman or browser.
 
 ------------------------------
