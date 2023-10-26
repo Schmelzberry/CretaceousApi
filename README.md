@@ -41,7 +41,7 @@
 ## 🌐 About the Project
 
 ### 📖 Description
-An API that functions as a species archive for dinosaurs that were alive during the cretaceous period. It utilizes RESTful principles, version control, and pagination is a work in progress. The user is able to interact with/call on the API when using Postman.
+An API that functions as a species archive for (fake)dinosaurs that were alive during the cretaceous period. It utilizes RESTful principles, version control, and pagination is a work in progress. The user is able to interact with/call on the API when using Postman.
 
 ### 🦠 Known Bugs
 
@@ -93,11 +93,11 @@ An API that functions as a species archive for dinosaurs that were alive during 
 
  #### Cloning
 
-  1) Navigate to the [LunsfordSpace CoffeeTracker API repository here](https://github.com/Schmelzberry/CretaceousApi.git).
+  1) Navigate to the [project repository here](https://github.com/Schmelzberry/CretaceousApi.git).
   2) Click 'Clone or download' to reveal the HTTPS url ending with .git and the 'Download ZIP' option.
-  3) Open up your system Terminal or GitBash, navigate to your desktop with the command: `cd Desktop`, or whichever location suits you best.
+  3) Open up your system Terminal or GitBash, navigate to your desktop with the command: `$ cd Desktop`, or whichever location suits you best.
   4) Clone the repository to your desktop: `$ git clone https://github.com/Schmelzberry/CretaceousApi.git` and navigate to root directory of project.
-  5) Run the command `cd CretaceousApi` to enter into the project directory.
+  5) Run the command `$ cd CretaceousApi` to enter into the project directory.
   6) View or Edit:
       * Code Editor - Run the command `code .` to open the project in VisualStudio Code for review and editing.
       * Text Editor - Open by double clicking on any of the files to open in a text editor.
@@ -111,7 +111,7 @@ An API that functions as a species archive for dinosaurs that were alive during 
 
   #### AppSettings
 
-  1) Create a new file in the CoffeeTrackerAPI.Solution/CoffeeTrackerAPI directory named `appsettings.json`
+  1) Create a new file in the CretaceousApi/CretaceousApi directory named `appsettings.json`
   2) Add in the following code snippet to the new appsettings.json file:
   
  ```
@@ -130,13 +130,13 @@ An API that functions as a species archive for dinosaurs that were alive during 
 3) Change the server, port, and user id as necessary. Replace 'Password' with your own relevant MySQL password and userId. (set at installation of MySQL).
 
 #### Database
-  1) Navigate to CoffeeTrackerAPI.Solution/CoffeeTrackerAPI directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CoffeeTrackerAPI.Solution/CoffeeTrackerAPI`).
+  1) Navigate to CretaceousApi/CretaceousApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CretaceousApi/CretaceousApi`).
   2) Run the command `dotnet ef database update` to generate the database through Entity Framework Core.
   3) (Optional) To update the database with any changes to the code, run the command `dotnet ef migrations add <MigrationsName>` which will use Entity Framework Core's code-first principle to generate a database update. After, run the previous command `dotnet ef database update` to update the database.
 
   #### Launch the API
-  1) Navigate to CoffeeTrackerAPI.Solution/CoffeeTrackerAPI directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CoffeeTrackerAPI.Solution/CoffeeTrackerAPI`).
-  2) Run the command `dotnet run` to have access to the API in Postman or browser.
+  1) Navigate to CretaceousApi/CretaceousApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/CoffeeTrackerAPI.Solution/CoffeeTrackerAPI`).
+  2) Run the command `dotnet watch run` to have access to the API in Postman or browser.
 
 ------------------------------
 
@@ -152,7 +152,6 @@ To build and view the Cretaceous API with Swagger, launch the project using `dot
 ```
 http://localhost:5000/api/animals/?name=rexie
 ```
-
 
 ..........................................................................................
 
@@ -182,7 +181,6 @@ http://localhost:5000/api/animals?minimumAge=5
   "age": 8
 }
 ```
-
 ..........................................................................................
 
 ### Dinosaurs from Cretaceous Period
@@ -208,8 +206,6 @@ DELETE /api/animals/{id}
 ```
 https://localhost:5000/api/animal/?species=shark&name=pip
 ```
-
-
 
 ### 🤝 Contributors
 
