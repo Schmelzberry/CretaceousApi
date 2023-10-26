@@ -3,7 +3,7 @@
   <u><big>|| <b>🦕Cretaceous Dinosaur API🦕</b> ||</big></u>
 </p>
  <p align="center">
-    🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕
+    🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕🦕
     </p>
 <p align="center">
     <!-- Project Avatar/Logo -->
