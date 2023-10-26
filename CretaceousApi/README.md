@@ -1,81 +1,92 @@
-# _Pierre's Treats_
+<br>
+<p align="center">
+  <u><big>|| <b>Cretaceous Dinosaur API</b> ||</big></u>
+</p>
+<p align="center">
+    <!-- Project Avatar/Logo -->
+    <br>
+    <p align="center">
+      ___________________________
+    </p>
+    <!-- GitHub Link -->
+    <p align="center">
+        <a href="https://github.com/Schmelzberry">
+            <strong>Schmelzberry</strong>
+        </a>
+    </p>
+    <br>
+    <p align="center">
+  <small>Initiated October 22nd, 2023. Updated October 26th, 2023.</small>
+</p>
 
-#### By _Jake Elsberry_
+------------------------------
+### <u>Table of Contents</u>
+* <a href="#🌐-about-the-project">About the Project</a>
+    * <a href="#📖-description">Description</a>
+    * <a href="#🦠-known-bugs">Known Bugs</a>
+    * <a href="#🛠-built-with">Built With</a>
+    <!-- * <a href="#🔍-preview">Preview</a> -->
+* <a href="#🏁-getting-started">Getting Started</a>
+    * <a href="#📋-prerequisites">Prerequisites</a>
+    * <a href="#⚙️-setup-and-use">Setup and Use</a>
+* <a href="#🛰️-api-documentation">API Documentation</a>
+* <a href="#🤝-contributors">Auxiliary</a>
+    * <a href="#🤝-contributors">Contributors</a>
+    * <a href="#✉️-contact-and-support">Contact</a>
+    * <a href="#⚖️-license">License</a>
+    * <a href="#🌟-acknowledgements">Acknowledgements</a>
+    
+------------------------------
 
-#### _A C# / ASP.NET Core MVC application using Entity Framework Core and MySQL._
+## 🌐 About the Project
 
-## Technologies Used
+### 📖 Description
+An API that functions as a species archive for dinosaurs that were alive during the cretaceous period. It utilizes RESTful principles, version control, and pagination is a work in progress. The user is able to interact with/call on the API when using Postman.
 
-* C#
-* .NET 6
-* ASP.NET Core MVC
-* ASP.NET Core Identity
-* Entity Framework Core
-* MySQL
-* MySQL Workbench
-* Pomelo
+### 🦠 Known Bugs
 
+* This is an API for learning purposes, and to create a robust README with clear install instructions.
 
-## Description
+### 🛠 Built With
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [ASP.NET Core MVC 6.0.0](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-3.1)
+* [MySQL 8.0.34 for Windows](https://dev.mysql.com/)
+* [Entity Framework Core 6.0.0](https://docs.microsoft.com/en-us/ef/core/)
+* [Swagger - NSwag 18.2.0](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio)
+* [Postman](postman.com)
 
-A website for Pierre to track his various treats. Only Users who make an account can create, change, and delete items from the website. All other users can view the list of items and their details.
+<!-- ### 🔍 Preview -->
 
-## Setup/Installation Requirements
+------------------------------
 
-#### Install Tools
-This project assumes you have MySQL Server and MySQL Workbench installed on your system. If necessary, follow along with the installation steps for the tools introduced in these series of lessons on [LearnHowToProgram](https://full-time.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net).
+## 🏁 Getting Started
 
-#### Set Up the Database
-To set up a new database to run with this application, follow the instructions in this [LearnHowToProgram Lesson](https://full-time.learnhowtoprogram.com/c-and-net/database-basics/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench).
-#### Install and Run the Project
+### 📋 Prerequisites
 
-1. Copy the **[URL](https://github.com/Schmelzberry/CretaceousApi.git)** provided for this repository.
-2. Open Terminal.
-3. Change your working directory to where you want the cloned directory.
-4. In your terminal, type `git clone` and use the copied URL from Step 1. Or, copy the following git command:
-```bash
-$ git clone https://github.com/Schmelzberry/CretaceousApi.git
-```
-5. Open your terminal and navigate to this project's production directory called `CreataceousApi`.
-6. Within the production directory of the project, create a file called `appsettings.json` and add the following code to it:
-   ```json
-    {
-      "ConnectionStrings": {
-          "DefaultConnection": "Server=localhost;Port=3306;database=[DATABASE];uid=[USERNAME];pwd=[PASSWORD];"
-      }
-    }
-   ```
-7. Next, make sure to update the connection string with your own system's values for `[USERNAME]` and `[PASSWORD]` and `[DATABASE]`! Don't forget to replace the brackets `[]` as well.
-8. Now that your connection string is ready, from the `CreataceousApi` directory, run the following command:
+#### Install .NET Core
+* On Windows 10 x64 or later
+  * [Click here](https://dotnet.microsoft.com/en-us/download) to download the 64-bit .NET Core SDK from Microsoft Corp for Windows. Version 6.0 is used in this project. 
+* On macOS Mojave or later
+  * [Click here](https://dotnet.microsoft.com/en-us/download) to download the .NET Core SDK from Microsoft Corp for macOS.  Version 6.0 is used in this project. 
+#### Install dotnet script
+ Enter the command ``dotnet tool install -g dotnet-script`` in Terminal for macOS or PowerShell for Windows.
 
-```bash
-$ dotnet ef database update
-```
+#### Install MySQL Workbench
+ [Download and install the appropriate version of MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
 
-9. Now that the database schema is in place, we're ready to run the program. 
-10. In the command line, run the following command to compile and run web application in development mode with a watcher:
-   
-```bash
-$ dotnet watch run
-```
-> Optionally, you can run `dotnet build` to compile this web app without running it.
+#### Install Postman
+(Optional) [Download and install Postman](https://www.postman.com/downloads/).
 
-11. Open the browser to https://localhost:5001 to use the web application. 
-> If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS.
+#### Code Editor
 
+  To view or edit the code, you will need an code editor or text editor. The popular open-source choices for an code editor are Atom and VisualStudio Code.
 
-## Known Bugs or Potential Issues
+  1) Code Editor Download:
 
-* Models currently lack data annotations, but project functions well without them.
+  * [VisualStudio Code](https://code.visualstudio.com/)
+  2) Click the download most applicable to your OS and system.
+  3) Wait for download to complete, then install -- Windows will run the setup exe and macOS will drag and drop into applications.
+  4) Optionally, create a [GitHub Account](https://github.com)
 
-## License
-
-MIT License
-
-Copyright (c) Jake Elsberry
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### ⚙️ Setup and Use
