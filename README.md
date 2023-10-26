@@ -116,7 +116,7 @@ An API that functions as a species archive for (fake)dinosaurs that were alive d
 
   1) Create a new file in the CretaceousApi/CretaceousApi directory named `appsettings.json`
   2) Add in the following code snippet to the new appsettings.json file:
-  
+  (Add appsettings.Development.json???)
  ```
 {
     "Logging": {
@@ -215,17 +215,6 @@ https://localhost:5000/api/animal/?species=shark&name=pip
 | Author | GitHub | 
 |--------|:------:|
 | [Jake Elsberry](https://www.linkedin.com/in/jake-elsberry/) | [Schmelzberry](https://github.com/Schmelzberry)
-
-------------------------------
-
-### ✉️ Contact and Support
-
-If you have any feedback or concerns, please contact one of the contributors.
-
-<p>
-    <a href="https://github.com/Schmelzberry/CretaceousApi.git/issues">Report Bug</a>·
-    <a href="https://github.com/Schmelzberry/CretaceousApi.git/issues">Request Feature</a>
-</p>
 
 ------------------------------
 
