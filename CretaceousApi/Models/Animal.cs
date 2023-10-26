@@ -11,7 +11,6 @@ namespace CretaceousApi.Models
     
     public string Species { get; set; }
    
-   
     public int Age { get; set; }
   }
 }
