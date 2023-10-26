@@ -149,6 +149,8 @@ Explore the API endpoints in Postman or a browser utlizing Swagger UI.
 ### Using Swagger Documentation 
 To build and view the Cretaceous API with Swagger, launch the project using `dotnet watch run` within the production directory 'CretaceousApi', and input the following URL into your browser: `http://localhost:5000`
 
+### Pagination to come!
+
 ------------------------------
 
 #### Example Query
